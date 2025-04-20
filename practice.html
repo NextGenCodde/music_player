@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ellipsis Example</title>
+  <style>
+    .name-box {
+      width: 180px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #aaa;
+      border-radius: 8px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    /* Hover ya focus pe size bara ho jaye */
+    .name-box:hover,
+    .name-box:focus {
+      width: 400px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="name-box" tabindex="0">Muhammad Arham Shafi The Full Stack Developer</div>
+
+</body>
+</html>
