@@ -10,6 +10,7 @@ let data = [
     { name: "Rehly Mery Kol", img: "rehly mery kol.jpeg", song: "Rehle Mere Kol Simran Choudhary 320 Kbps" },
     { name: "Water", img: "water.jpeg", song: "Water Diljit Dosanjh 320 Kbps" },
     { name: "Paro (Aditya)", img: "paro.jpeg", song: "Paaro - Aditya Rikhari 320 Kbps" },
+    {name: "tu hy to mae hu" , img: "tu ha tu main hon.jpeg" , song: "Tu Hain Toh Main Hoon Sky Force 320 Kbps.mp3"}
 ]
 
 let song_name = document.querySelector(".name")
@@ -159,6 +160,7 @@ document.querySelector(".shuffle_btn").addEventListener("click",()=>{
 })
 
 let chk_box = document.querySelector(".chk_box")
+
 player.muted = !chk_box.checked;
 
 chk_box.addEventListener("change", () => {
